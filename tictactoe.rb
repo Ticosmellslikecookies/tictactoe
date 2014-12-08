@@ -119,10 +119,10 @@ end
 
 
 def move(b) 
-	puts "Please tell me what row you want the X to go"
+	puts "Please tell me what row you want the X to go(1, 2 or 3)"
 	row = gets.to_i
 
-	puts "Please tell me what place inside of that row do you want the X to go"
+	puts "Please tell me what place inside of that row do you want the X to go(1, 2 or 3)"
 	place = (gets.to_i - 1)
 if	
 	b[row][place] == "o" or b[row][place] == "x"	
